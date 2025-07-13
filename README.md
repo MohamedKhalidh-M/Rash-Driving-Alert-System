@@ -116,30 +116,32 @@ Acceleration values
 const char* ssid = "Your_SSID";
 const char* password = "Your_PASSWORD";
 
-## 🚀 Future Improvements
-- Add **GSM module** as backup for areas with no WiFi  
-- Integrate **buzzer and LED** alert for local warning  
-- **Real-time dashboard** with location logs  
+**🚀 Future Improvements**
+Add GSM module as backup for areas with no WiFi
 
----
+Integrate buzzer and LED alert for local warning
 
-## 📝 Notes
-- Ensure **MPU6050** is calibrated properly  
-- Use **App Passwords** for Gmail SMTP authentication  
-- **Disconnect SCL, SDA, TX, RX** while uploading code  
+Real-time dashboard with location logs
 
----
+**📝 Notes**
+Ensure MPU6050 is calibrated properly
 
-## ✅ Conclusion
-This project successfully demonstrates a practical and functional **Vehicle Accident and Rash Driving Detection and Alert System** using **NodeMCU (ESP8266)**, **MPU6050**, and **Neo-6M GPS module**. The integration of **real-time motion analysis** and **GPS-based tracking** provides an effective mechanism to identify abnormal driving behavior or accidents.
+Use App Passwords for Gmail SMTP authentication
 
-Unlike other implementations that rely heavily on third-party platforms like MQTT or IFTTT, this system operates independently by using the **SMTP protocol** to send **email alerts with live GPS coordinates**, ensuring more **reliability**, **security**, and **customization**.
+Disconnect SCL, SDA, TX, RX while uploading code
 
-## 🔧 Potential Enhancements
-- Adding a **GSM module** for SMS alerts when Wi-Fi is unavailable  
-- Integrating **vehicle ignition control** during extreme disturbances  
-- Logging data to a **cloud platform** or **database** for analytics  
-- Creating a **mobile app or dashboard** for live monitoring  
+**✅ Conclusion**
+This project successfully demonstrates a practical and functional Vehicle Accident and Rash Driving Detection and Alert System using NodeMCU (ESP8266), MPU6050, and Neo-6M GPS module. The integration of real-time motion analysis and GPS-based tracking provides an effective mechanism to identify abnormal driving behavior or accidents.
 
-Overall, the system is a **robust**, **scalable**, and **cost-effective** solution that contributes to **smart transportation**, **driver safety**, and **emergency response automation**.
+Unlike other implementations that rely heavily on third-party platforms like MQTT or IFTTT, this system operates independently by using the SMTP protocol to send email alerts with live GPS coordinates, ensuring more reliability, security, and customization.
 
+**🔧 Potential Enhancements**
+Adding a GSM module for SMS alerts when Wi-Fi is unavailable
+
+Integrating vehicle ignition control during extreme disturbances
+
+Logging data to a cloud platform or database for analytics
+
+Creating a mobile app or dashboard for live monitoring
+
+Overall, the system is a robust, scalable, and cost-effective solution that contributes to smart transportation, driver safety, and emergency response automation.

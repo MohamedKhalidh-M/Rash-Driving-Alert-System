@@ -3,6 +3,16 @@
 **Introduction:**
      This project presents a standalone and robust IoT-based accident detection and alert system, using NodeMCU (ESP8266), MPU6050 (Accelerometer + Gyroscope), and the Neo-6M GPS module. Unlike most generic IoT accident detection projects, this design includes fully independent circuit integration, real-time data acquisition, and a SMTP-based email alert system with GPS location.
 
+## 📖 Project Description
+
+This project is a standalone and reliable **Vehicle Accident and Rash Driving Detection and Alert System** built using **NodeMCU (ESP8266)**, **MPU6050 (Accelerometer + Gyroscope)**, and the **Neo-6M GPS module**.
+
+The system is designed to detect abnormal driving patterns such as sudden acceleration, harsh braking, sharp turns, or collisions by analyzing motion data in real-time. When a critical disturbance is detected, the system fetches the GPS location and automatically sends an **email alert** using the **SMTP protocol**, which includes a Google Maps link pinpointing the vehicle’s location.
+
+Unlike traditional projects that rely on cloud services like **MQTT** or **IFTTT** or **SMTP**, this implementation is fully **independent**, ensuring more **control, security, and offline reliability** (as long as WiFi is available). The project also displays real-time status and motion values on a **16x2 LCD** for immediate local feedback.
+
+This system can serve as a foundation for smart transportation solutions, fleet safety monitoring, accident response automation, and driver behavior analysis.
+
 ## 🔧 Components Used
 
 | Component             | Quantity |
@@ -38,7 +48,7 @@ The Ublox NEO-6M is a high-performance GPS receiver module that provides real-ti
 
 **Interface:** UART (9600 bps default)
 
-**Voltage: ** 3.3V–5V
+**Voltage:** 3.3V–5V
 
 **Output:** Latitude, Longitude, Time
 

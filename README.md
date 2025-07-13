@@ -114,13 +114,14 @@ Acceleration values
 
 ### Final Fix (copy this into your README.md):
 
-```markdown
+
 ## 💻 Code Highlights
 
 ### WiFi Credentials
 ```cpp
 const char* ssid = "Your_SSID";
 const char* password = "Your_PASSWORD";
+```
 
 ## 🚀 Future Improvements
 

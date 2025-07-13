@@ -26,10 +26,10 @@ This system can serve as a foundation for smart transportation solutions, fleet 
 | Jumper Wires          | As needed |
 | 220Ω Resistor         | 1        |
 
----
 
 
-** System Overview**
+
+**System Overview** 
 MPU6050 (Accelerometer + Gyroscope)
 The MPU6050 sensor combines a 3-axis gyroscope and a 3-axis accelerometer. It detects abrupt changes in acceleration or angular momentum, essential for identifying crashes or rash driving. It communicates with NodeMCU over I2C (D1 = SCL, D2 = SDA).
 

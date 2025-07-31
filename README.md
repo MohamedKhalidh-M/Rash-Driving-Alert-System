@@ -166,5 +166,10 @@ Unlike other implementations that rely heavily on third-party platforms like MQT
 
 Overall, the system is a **robust**, **scalable**, and **cost-effective** solution that contributes to **smart transportation**, **driver safety**, and **emergency response automation**.
 
-[Watch the Video](https://raw.githubusercontent.com/username/repository-name/main/path/to/WhatsApp%20Video%202025-07-31%20at%2009.26.07.mp4)
+# Rash Driving Alert System
+
+Here is a video demonstrating the system:
+
+[Watch the Video](https://raw.githubusercontent.com/username/Rash-Driving-Alert-System/main/WhatsApp%20Video%202025-07-31%20at%2009.26.07.mp4)
+
 

@@ -69,7 +69,7 @@ Acceleration values
 
 **Location Fetching:** Retrieves real-time latitude and longitude from the GPS module.
 
-**Email Alert: **Sends an email with a clickable Google Maps link using SMTP protocol.
+**Email Alert: **Sends an email with a clickable Google Maps link using SMTP protocol. 
 
 
 ##  Circuit Connections
